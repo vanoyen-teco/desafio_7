@@ -1,0 +1,33 @@
+{
+  "name": "entregable_7",
+  "version": "1.0.0",
+  "description": "Tema: Base de datos\r Link:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanoyen-teco/desafio_7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanoyen-teco/desafio_7/issues"
+  },
+  "homepage": "https://github.com/vanoyen-teco/desafio_7#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "socket.io": "^4.5.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
